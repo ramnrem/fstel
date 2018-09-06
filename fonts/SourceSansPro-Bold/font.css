@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url('SourceSansPro-Bold.eot');
+  src: url('SourceSansPro-Bold.woff2') format('woff2'),
+       url('SourceSansPro-Bold.woff') format('woff'),
+       url('SourceSansPro-Bold.ttf') format('truetype'),
+       url('SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg'),
+       url('SourceSansPro-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
