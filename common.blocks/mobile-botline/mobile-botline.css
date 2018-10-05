@@ -1,0 +1,9 @@
+.mobile-botline {
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 574px) {
+	.mobile-botline {
+		display: none;
+	}
+}

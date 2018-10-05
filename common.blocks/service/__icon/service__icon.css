@@ -1,0 +1,19 @@
+.service__icon {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+	.service__title {
+		display: block;
+		width: 100%;
+		font-size: 16px;
+		text-align: center;
+	}
+	.service__icon {
+		display: none;
+	}
+	.service {
+		padding: 30px 0;
+	}
+}

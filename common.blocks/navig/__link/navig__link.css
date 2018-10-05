@@ -1,0 +1,19 @@
+.navig__link {
+	color: #212121;
+	font-family: 'SourceSansPro-SemiBold', sans-serif;
+	font-size: 16px;
+	padding: 0 30px !important;
+	font-weight: 400;
+	transition: .2s;
+}
+.navig__link:hover,
+.navig__item.active .navig__link {
+	color: #ffa000;
+	background-color: #fff !important;
+}
+
+@media only screen and (max-width: 1200px) {
+	.navig__link {
+		padding: 0 25px !important;
+	}
+}

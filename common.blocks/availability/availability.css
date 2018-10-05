@@ -1,0 +1,11 @@
+.availability {
+    margin-right: 30px;
+}
+
+.availability__yeanay {
+	display: none;
+	align-items: center;
+}
+.availability__yeanay_plus {
+	display: flex;
+}

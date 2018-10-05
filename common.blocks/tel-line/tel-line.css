@@ -1,0 +1,5 @@
+.tel-line {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 15px 0;
+}

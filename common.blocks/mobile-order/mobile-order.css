@@ -1,0 +1,27 @@
+.mobile-order {
+	border-radius: 2px;
+	background-color: #f5f5f5;
+	padding: 10px 15px;
+	width: 100%;
+	display: none;
+}
+@media only screen and (max-width: 621px) {
+	.mobile-order {
+		display: block;
+	}
+	.protect-item__cost {
+		margin-right: 0 !important;
+	}
+	.availability {
+		margin-right: 0 !important;
+	}
+	.protect-item__bttn .bttn__text {
+		display: block;
+	}
+	.protect-item__title {
+		max-width: calc(100% - 72px) !important;
+	}
+	.protect-item__info {
+		margin-bottom: 8px;
+	}
+}

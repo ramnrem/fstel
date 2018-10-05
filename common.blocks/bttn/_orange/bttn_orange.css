@@ -1,0 +1,16 @@
+.bttn_orange {
+    background-color: #ffa000;
+    color: #fff;
+}
+
+.bttn_orange:hover {
+	background-color: #e69100;
+}
+
+.bttn_orange:hover .bttn__text {
+	color: #fff;
+}
+
+.bttn_orange .bttn__text {
+	font-size: 16px;
+}

@@ -1,56 +1,81 @@
 @font-face {
-  font-family: 'SourceSansPro-Bold';
-  src: url('SourceSansPro-Bold.eot');
-  src: url('SourceSansPro-Bold.woff2') format('woff2'),
-       url('SourceSansPro-Bold.woff') format('woff'),
-       url('SourceSansPro-Bold.ttf') format('truetype'),
-       url('SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg'),
-       url('SourceSansPro-Bold.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'SourceSansPro-Bold';
+	src: url('../../fonts/SourceSansPro-Bold/SourceSansPro-Bold.eot');
+	src: url('../../fonts/SourceSansPro-Bold/SourceSansPro-Bold.woff2') format('woff2'),
+			 url('../../fonts/SourceSansPro-Bold/SourceSansPro-Bold.woff') format('woff'),
+			 url('../../fonts/SourceSansPro-Bold/SourceSansPro-Bold.ttf') format('truetype'),
+			 url('../../fonts/SourceSansPro-Bold/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg'),
+			 url('../../fonts/SourceSansPro-Bold/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'SourceSansPro-Light';
-  src: url('SourceSansPro-Light.eot');
-  src: url('SourceSansPro-Light.woff2') format('woff2'),
-       url('SourceSansPro-Light.woff') format('woff'),
-       url('SourceSansPro-Light.ttf') format('truetype'),
-       url('SourceSansPro-Light.svg#SourceSansPro-Light') format('svg'),
-       url('SourceSansPro-Light.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'SourceSansPro-Light';
+	src: url('../../fonts/SourceSansPro-Light/SourceSansPro-Light.eot');
+	src: url('../../fonts/SourceSansPro-Light/SourceSansPro-Light.woff2') format('woff2'),
+			 url('../../fonts/SourceSansPro-Light/SourceSansPro-Light.woff') format('woff'),
+			 url('../../fonts/SourceSansPro-Light/SourceSansPro-Light.ttf') format('truetype'),
+			 url('../../fonts/SourceSansPro-Light/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg'),
+			 url('../../fonts/SourceSansPro-Light/SourceSansPro-Light.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'SourceSansPro';
-  src: url('SourceSansPro-Regular.eot');
-  src: url('SourceSansPro-Regular.woff2') format('woff2'),
-       url('SourceSansPro-Regular.woff') format('woff'),
-       url('SourceSansPro-Regular.ttf') format('truetype'),
-       url('SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg'),
-       url('SourceSansPro-Regular.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'SourceSansPro';
+	src: url('../../fonts/SourceSansPro-Regular/SourceSansPro-Regular.eot');
+	src: url('../../fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff2') format('woff2'),
+			 url('../../fonts/SourceSansPro-Regular/SourceSansPro-Regular.woff') format('woff'),
+			 url('../../fonts/SourceSansPro-Regular/SourceSansPro-Regular.ttf') format('truetype'),
+			 url('../../fonts/SourceSansPro-Regular/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg'),
+			 url('../../fonts/SourceSansPro-Regular/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'SourceSansPro-SemiBold';
-  src: url('SourceSansPro-SemiBold.eot');
-  src: url('SourceSansPro-SemiBold.woff2') format('woff2'),
-       url('SourceSansPro-SemiBold.woff') format('woff'),
-       url('SourceSansPro-SemiBold.ttf') format('truetype'),
-       url('SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg'),
-       url('SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'SourceSansPro-SemiBold';
+	src: url('../../fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.eot');
+	src: url('../../fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.woff2') format('woff2'),
+			 url('../../fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.woff') format('woff'),
+			 url('../../fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.ttf') format('truetype'),
+			 url('../../fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg'),
+			 url('../../fonts/SourceSansPro-SemiBold/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
 }
-
 .page {
-    font: 14px 'SourceSansPro', sans-serif !important;
-    padding: 0;
-    margin: 0;
+	font: 14px 'SourceSansPro', sans-serif !important;
+	padding: 0;
+	margin: 0;
+	background-color: #f5f5f5 !important;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
 }
 
+a:link,
+a:visited,
+a:active,
+a:hover {
+	text-decoration: none;
+}
+button {
+	outline: none;
+	cursor: pointer;
+}
 
+.container:before,
+.container:after {
+	content: none;
+}
 
-
-
-
+@media only screen and (max-width: 573px) {	
+	.row {
+		margin: 0;
+	}
+}

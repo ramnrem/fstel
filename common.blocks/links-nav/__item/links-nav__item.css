@@ -1,0 +1,11 @@
+.links-nav__item {
+    border-bottom: 2px solid #e0e0e0;
+    padding: 20px 0;
+}
+.links-nav__item:last-child {
+    border-bottom: none;
+}
+
+.links-nav_sticked .links-nav__item:nth-last-child(2) {
+    border-bottom: none;
+}

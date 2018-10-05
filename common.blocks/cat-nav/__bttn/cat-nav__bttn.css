@@ -1,0 +1,13 @@
+.cat-nav__bttn {
+	width: 234px;
+	height: 42px;
+	border-radius: 2px;
+}
+.cat-nav__bttn .bttn__text {
+	font-family: "SourceSansPro-SemiBold";
+	font-size: 14px;
+	font-weight: 400;
+}
+.cat-nav__bttn .bttn__icon {
+	margin-left: 20px;
+}

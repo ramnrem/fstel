@@ -1,0 +1,12 @@
+.bordered-btn {
+	border-radius: 2px;
+	border: 2px solid #ffa000;
+	font-size: 14px;
+	font-family: 'SourceSansPro-SemiBold', sans-serif;
+	display: block;
+	padding: 10px 30px;
+	color: #ffa000;
+}
+.bordered-btn:hover {
+	color: #ffa000;
+}

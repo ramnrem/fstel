@@ -1,0 +1,9 @@
+.search {
+    display: flex;
+}
+
+@media only screen and (max-width: 573px) {
+	.search {
+		display: none;
+	}
+}

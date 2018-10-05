@@ -1,0 +1,12 @@
+.product__link {
+	color: #ffa000;
+	font-family: "SourceSansPro-SemiBold";
+	font-size: 14px;
+	font-weight: 400;
+	display: flex;
+	flex: 1 0 auto;
+	align-items: flex-end;
+}
+.product__link:hover {
+	color: #ffa000;
+}

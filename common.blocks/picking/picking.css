@@ -1,0 +1,9 @@
+.picking {
+    width: calc(100% - 160px - 190px - 60px);
+}
+
+@media only screen and (max-width: 991px) {
+	.picking {
+	    width: 100% !important;
+	}
+}

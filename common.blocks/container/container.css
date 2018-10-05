@@ -1,0 +1,27 @@
+.container_justify_between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_align_center {
+	align-items: center;
+}
+.container_padding {
+	padding: 0 15px !important;
+}
+.container__wrap {
+	display: flex;
+}
+
+@media only screen and (max-width: 573px) {
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/* .container:before,
+.container:after {
+	content: none;
+} */

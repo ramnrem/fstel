@@ -1,0 +1,21 @@
+.numbering__arr {
+	cursor: pointer;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbering__arr span {
+	height: 7px;
+	width: 7px;
+	border-top: 2px solid #ffa000;
+}
+.numbering__arr_prev span {
+	border-left: 2px solid #ffa000;
+	transform: rotate(-45deg);
+}
+.numbering__arr_next span {
+	border-right: 2px solid #ffa000;
+	transform: rotate(45deg);
+}

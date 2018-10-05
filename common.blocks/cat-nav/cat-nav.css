@@ -1,0 +1,21 @@
+.cat-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.cat-nav_bot {
+	border-bottom: none;
+	padding-bottom: 0;
+	padding-top: 15px;
+	border-top: 2px solid #e0e0e0;
+}
+
+@media only screen and (max-width: 1999px) {
+	.protect-item__cost,
+	.availability {
+		margin-right: 30px !important;
+	}
+}

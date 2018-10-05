@@ -1,0 +1,21 @@
+.links-nav__link {
+	color: #454545;
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	position: relative;
+}
+.links-nav__link:hover {
+	color: #ffa000;
+}
+.links-nav__link:hover:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: calc(50% - 2px);
+	width: 8px;
+	height: 8px;
+	border-top: 2px solid #ffa000;
+	border-right: 2px solid #ffa000;
+	transform: rotate(45deg);
+}

@@ -1,0 +1,9 @@
+.mobile-order__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.mobile-order__head.active .mobile-order__arr {
+	transform: rotate(-135deg);
+}

@@ -1,0 +1,10 @@
+.bottom-line {
+	background: #fff;
+    border-top: 2px solid #f5f5f5;
+}
+
+@media only screen and (max-width: 573px) {
+	.bottom-line {
+		display: none;
+	}
+}

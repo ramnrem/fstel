@@ -1,0 +1,12 @@
+.top-line__button {
+	width: 180px;
+	height: 38px;
+	background-color: #ffa000;
+	margin-left: 30px;
+}
+@media only screen and (max-width: 573px) {
+	.top-line__button {
+		margin: 0;
+		width: 100%;
+	}
+}

@@ -1,0 +1,4 @@
+.products-picking {
+    display: flex;
+    flex-wrap: wrap;
+}

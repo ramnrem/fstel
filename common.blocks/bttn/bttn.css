@@ -1,0 +1,19 @@
+.bttn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bttn:hover {
+	text-decoration: none;
+}
+
+.bttn_white {
+	width: 143px;
+	height: 42px;
+	border-radius: 2px;
+	border: 2px solid #e0e0e0;
+}
+.bttn_white .bttn__text {
+	color: #ffa000;
+}

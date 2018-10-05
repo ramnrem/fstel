@@ -1,0 +1,21 @@
+.numbering__num {
+	display: none;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.numbering__num_current {
+	border-radius: 2px;
+	background-color: #ffa000;
+	color: #ffffff;
+	font-family: "SourceSansPro-SemiBold";
+	font-size: 16px;
+	font-weight: 400;
+}
+.numbering__num_current,
+.numbering__num_current + li,
+.numbering__num_current + li + li{
+	display: flex;
+}

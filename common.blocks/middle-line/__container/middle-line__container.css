@@ -1,0 +1,11 @@
+.middle-line__container {
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+}
+@media only screen and (max-width: 573px) {
+	.middle-line__container {
+		padding: 9px 15px;
+		justify-content: center;
+	}
+}

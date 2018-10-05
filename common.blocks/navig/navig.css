@@ -1,0 +1,12 @@
+.navig {
+    display: flex;
+    position: relative;
+    top: -2px;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 991px) {
+	.navig {
+		display: none;
+	}
+}

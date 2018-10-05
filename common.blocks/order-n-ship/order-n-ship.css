@@ -1,0 +1,15 @@
+.order-n-ship {
+    width: 190px;
+}
+@media only screen and (max-width: 991px) {
+	.order-n-ship {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.order-n-ship .divide-title {
+		width: 100%;
+	}
+}

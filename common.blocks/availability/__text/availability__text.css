@@ -1,0 +1,13 @@
+.availability__text {
+    font-family: "SourceSansPro-SemiBold";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.yea__text {
+	color: #689f38;
+}
+.nay__text {
+	color: #757575;
+}
+

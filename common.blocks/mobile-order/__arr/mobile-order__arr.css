@@ -1,0 +1,9 @@
+.mobile-order__arr {
+	transition: .2s;
+    display: block;
+    border-bottom: 2px solid #ffa000;
+    border-right: 2px solid #ffa000;
+    transform: rotate(45deg);
+    width: 7.5px;
+    height: 7.5px;
+}
